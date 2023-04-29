@@ -37,6 +37,7 @@ export const Content = styled.div`
 
   > button:first-child {
     align-self: end;
+    color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 
   > h1 {
@@ -51,5 +52,9 @@ export const Content = styled.div`
     font-size: 1.6rem;
     text-align: justify;
     margin-bottom: 5.4rem;
+  }
+
+  > button {
+    margin-top: 5rem;
   }
 `
