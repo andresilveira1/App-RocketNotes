@@ -5,13 +5,13 @@ export const Container = styled.textarea`
   height: 15rem;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-  color: ${({ theme }) => theme.COLORS.WHITE};
-
+  border-radius: 1rem;
   border: none;
   resize: none;
 
+  color: ${({ theme }) => theme.COLORS.WHITE};
+
   margin-bottom: 3.4rem;
-  border-radius: 1rem;
   padding: 1.6rem;
 
   &::placeholder {

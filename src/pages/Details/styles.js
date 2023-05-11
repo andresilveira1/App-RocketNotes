@@ -12,7 +12,9 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
+
     overflow-y: scroll;
+
     padding: 6.4rem 0;
   }
 `
@@ -30,6 +32,7 @@ export const Links = styled.ul`
 
 export const Content = styled.div`
   max-width: 55rem;
+
   margin: 0 auto;
 
   display: flex;
@@ -37,6 +40,7 @@ export const Content = styled.div`
 
   > button:first-child {
     align-self: end;
+
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 
@@ -51,6 +55,7 @@ export const Content = styled.div`
   > p {
     font-size: 1.6rem;
     text-align: justify;
+
     margin-bottom: 5.4rem;
   }
 

@@ -6,7 +6,9 @@ export const Container = styled.div`
   > header {
     width: 100%;
     height: 14.4rem;
+
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
     padding: 0 14.4rem;
 
     display: flex;
@@ -21,6 +23,7 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   max-width: 34rem;
+
   margin: 3rem auto 0;
 
   > div:nth-child(3) {
@@ -30,6 +33,7 @@ export const Form = styled.form`
 
 export const Avatar = styled.div`
   position: relative;
+
   margin: -124px auto 6.4rem;
 
   width: 18.6rem;
@@ -37,6 +41,7 @@ export const Avatar = styled.div`
 
   > img {
     border-radius: 50%;
+
     width: 18.6rem;
     height: 18.6rem;
   }
@@ -64,6 +69,7 @@ export const Avatar = styled.div`
 
     svg {
       color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+
       width: 2rem;
       height: 2rem;
     }

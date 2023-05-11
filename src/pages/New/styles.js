@@ -12,6 +12,7 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
+
     overflow-y: auto;
   }
 
@@ -24,6 +25,7 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   margin: 3.8rem auto 10rem;
+
   max-width: 55rem;
 
   > header {

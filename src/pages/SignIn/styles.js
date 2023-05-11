@@ -13,12 +13,14 @@ export const Form = styled.form`
 
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
+
+  text-align: center;
 
   > h1 {
     color: ${({ theme }) => theme.COLORS.ORANGE};
     font-size: 4.8rem;
+
     margin-top: 20rem;
   }
 
@@ -31,17 +33,20 @@ export const Form = styled.form`
   > h2 {
     font-size: 2.4rem;
     font-weight: 500;
+
     margin: 4.8rem 0;
   }
 
   > a {
     color: ${({ theme }) => theme.COLORS.ORANGE};
+
     margin-top: 12.4rem;
   }
 `
 
 export const Background = styled.div`
   flex: 1;
+
   background: url(${backgroundImg}) no-repeat center center;
   background-size: cover;
 `

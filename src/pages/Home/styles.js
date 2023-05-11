@@ -26,7 +26,6 @@ export const Brand = styled.div`
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
-
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
   > h1 {
@@ -40,8 +39,9 @@ export const Menu = styled.ul`
 
   display: flex;
   flex-direction: column;
-  text-align: center;
   gap: 2.4rem;
+
+  text-align: center;
 
   padding-top: 6.4rem;
 
@@ -54,7 +54,9 @@ export const Search = styled.div`
 `
 export const Content = styled.div`
   grid-area: content;
+
   padding: 6.4rem 6.4rem 0;
+
   overflow-y: auto;
 `
 export const NewNote = styled(Link)`
@@ -66,7 +68,7 @@ export const NewNote = styled(Link)`
   gap: 0.8rem;
 
   font-size: 2rem;
-
   color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
   background-color: ${({ theme }) => theme.COLORS.ORANGE};
 `

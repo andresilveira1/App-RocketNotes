@@ -6,13 +6,13 @@ export const Container = styled.div`
 
   background-color: ${({ theme, isNew }) =>
     isNew ? 'transparent' : theme.COLORS.BACKGROUND_900};
-  color: ${({ theme }) => theme.COLORS.GREY_300};
-
   border: ${({ theme, isNew }) =>
     isNew ? `1px dashed ${theme.COLORS.GRAY_300}` : 'none'};
+  border-radius: 1rem;
+
+  color: ${({ theme }) => theme.COLORS.GREY_300};
 
   margin-bottom: 8px;
-  border-radius: 1rem;
   padding-right: 1.6rem;
 
   > button {
@@ -24,12 +24,14 @@ export const Container = styled.div`
 
   .button-delete {
     color: ${({ theme }) => theme.COLORS.RED};
+
     display: flex;
     align-items: center;
   }
 
   .button-add {
     color: ${({ theme }) => theme.COLORS.ORANGE};
+
     display: flex;
     align-items: center;
   }
@@ -41,9 +43,9 @@ export const Container = styled.div`
     padding: 1.2rem;
 
     color: ${({ theme }) => theme.COLORS.WHITE};
-    background: transparent;
 
     border: none;
+    background: transparent;
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
