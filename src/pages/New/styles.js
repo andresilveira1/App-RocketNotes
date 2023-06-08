@@ -35,7 +35,7 @@ export const Form = styled.form`
 
     margin-bottom: 3.6rem;
 
-    a {
+    button {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
       font-size: 2rem;
     }
@@ -52,7 +52,7 @@ export const Form = styled.form`
   > :nth-child(4) {
     margin-bottom: 4.7rem;
 
-    div:nth-child(2) {
+    div {
       margin-bottom: 2rem;
     }
   }
